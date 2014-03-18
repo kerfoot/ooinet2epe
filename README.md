@@ -14,5 +14,5 @@ for this to change...
     (732) 932-3344
     kerfoot@marine.rutgers.edu
 
-See the [Wiki]() for details on organization and use.
+See the [Wiki](https://github.com/kerfoot/ooinet2epe/wiki) for details on organization and use.
 
