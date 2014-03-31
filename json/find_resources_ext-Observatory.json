@@ -1,0 +1,274 @@
+{
+  "data": {
+    "GatewayResponse": [
+      [
+        "0359905882384f6fa149b90f32c4ab00",
+        "07636954e4044b2191ed0bda8ec274ed",
+        "e081de74d0304bc0a097c8f6d947f335",
+        "205ff6b1b0a24a1f927b3675bf4ad898",
+        "8cfb5f8596564c9e8d7ee8b80eedc24b",
+        "d4ffa2cf71884d1fadef5b80b3481081",
+        "88a611dc3aa14a258237531a36285268",
+        "2d62a3aaccfa4470b9bead0f2b958333",
+        "2cac698fce5a490db527fc66651b967b",
+        "e788137222264aac9b891e0d64c3a9c7",
+        "118361b2f5b744c39521deb6d90fb731",
+        "48bb8023abbb494b9b0b4d96ecaee27c",
+        "6c7565c6ada34a66ada9cac3e7326c51",
+        "10a97184d411442199d0ce02bb660e57",
+        "1d5f42e9547148c39a836e55319b8322",
+        "f46356b029334660979156663a8b15d7",
+        "0f23843ec3ed4dc4abe8f8911361b6b3",
+        "5e7d30a30d8f4ae3bb1ec635dfcbc2ac",
+        "4aa91d9fb647451ca9cc97b4c3050884",
+        "e0656e6d6418450eb51acfb28c37df62",
+        "bd0c99da4f514ba6ba0d96c9a9a4c97c",
+        "577ccd39b6194cf5b99672354964d176",
+        "9644d20fc74b424b9825dc2cf6a2431d",
+        "d9e54f1b0e8f481881e3913a36462077",
+        "54df5f1f824a46e4b8866e1a3d6685e4",
+        "d6ef055da90a4149ba1122d073f7d9b0",
+        "aabe98f9d4f14be4b8fb7fd61dd27047",
+        "a73d8d2306d74969b2701f2779c7ef47",
+        "ebe1029f328149ee980daefe1dd8a42c",
+        "dcb2d82afd504e1897a6602196ff5a69",
+        "040f57d414a64b789cbc122bfe0a917c",
+        "67a2c124e76d40aa913351f1767d122b",
+        "bb8ff5b455fa4722bc15de0e0eab6c43",
+        "79c8b9d027cd4022b944628b63ce8832",
+        "6dd1e578a5af4117bfa4429d646a96ab",
+        "a86e71af9f3143eebec27ad5484a27cd",
+        "ec768722d59344c7bbeaee425a09c7b8",
+        "cbfd27c08b8845928d192e4458853182",
+        "3c5e83e5b1ba488eb83b8f4d9d499053",
+        "7437cfdc64744210af93ebcd85709d12",
+        "38eec901ff0f4cc09098300107fd4e00",
+        "e32ead7ffec14dc9a2cb3de9cb707b96",
+        "a58b6d4b27bc4f42846117c56a171ec0",
+        "7790aef119674e7ba5672d1c919f455d"
+      ],
+      [
+        {
+          "type": "Observatory",
+          "name": "Global Southern Ocean Mobile Assets",
+          "id": "0359905882384f6fa149b90f32c4ab00"
+        },
+        {
+          "type": "Observatory",
+          "name": "Regional Pacific City",
+          "id": "07636954e4044b2191ed0bda8ec274ed"
+        },
+        {
+          "type": "Observatory",
+          "name": "Global Argentine Basin Mesoscale Flanking B",
+          "id": "e081de74d0304bc0a097c8f6d947f335"
+        },
+        {
+          "type": "Observatory",
+          "name": "Global Irminger Sea Mobile Assets",
+          "id": "205ff6b1b0a24a1f927b3675bf4ad898"
+        },
+        {
+          "type": "Observatory",
+          "name": "Coastal Pioneer Inshore",
+          "id": "8cfb5f8596564c9e8d7ee8b80eedc24b"
+        },
+        {
+          "type": "Observatory",
+          "name": "Coastal Pioneer Central",
+          "id": "d4ffa2cf71884d1fadef5b80b3481081"
+        },
+        {
+          "type": "Observatory",
+          "name": "Regional Axial International District",
+          "id": "88a611dc3aa14a258237531a36285268"
+        },
+        {
+          "type": "Observatory",
+          "name": "Global Station Papa Apex",
+          "id": "2d62a3aaccfa4470b9bead0f2b958333"
+        },
+        {
+          "type": "Observatory",
+          "name": "Global Argentine Basin Mobile Assets",
+          "id": "2cac698fce5a490db527fc66651b967b"
+        },
+        {
+          "type": "Observatory",
+          "name": "Regional Axial Eastern Caldera",
+          "id": "e788137222264aac9b891e0d64c3a9c7"
+        },
+        {
+          "type": "Observatory",
+          "name": "Coastal Endurance Washington Inshore",
+          "id": "118361b2f5b744c39521deb6d90fb731"
+        },
+        {
+          "type": "Observatory",
+          "name": "Regional Axial Base",
+          "id": "48bb8023abbb494b9b0b4d96ecaee27c"
+        },
+        {
+          "type": "Observatory",
+          "name": "Regional Continental Margin Southern Hydrate Ridge",
+          "id": "6c7565c6ada34a66ada9cac3e7326c51"
+        },
+        {
+          "type": "Observatory",
+          "name": "Regional Continental Margin",
+          "id": "10a97184d411442199d0ce02bb660e57"
+        },
+        {
+          "type": "Observatory",
+          "name": "Global Station Papa Mesoscale Flanking A",
+          "id": "1d5f42e9547148c39a836e55319b8322"
+        },
+        {
+          "type": "Observatory",
+          "name": "Coastal Pioneer Upstream Offshore",
+          "id": "f46356b029334660979156663a8b15d7"
+        },
+        {
+          "type": "Observatory",
+          "name": "Global Station Papa Mesoscale Flanking B",
+          "id": "0f23843ec3ed4dc4abe8f8911361b6b3"
+        },
+        {
+          "type": "Observatory",
+          "name": "Coastal Endurance Oregon Inshore",
+          "id": "5e7d30a30d8f4ae3bb1ec635dfcbc2ac"
+        },
+        {
+          "type": "Observatory",
+          "name": "Regional Axial Ashes",
+          "id": "4aa91d9fb647451ca9cc97b4c3050884"
+        },
+        {
+          "type": "Observatory",
+          "name": "Global Argentine Basin Apex",
+          "id": "e0656e6d6418450eb51acfb28c37df62"
+        },
+        {
+          "type": "Observatory",
+          "name": "Regional Mid Plate",
+          "id": "bd0c99da4f514ba6ba0d96c9a9a4c97c"
+        },
+        {
+          "type": "Observatory",
+          "name": "Coastal Pioneer Upstream Inshore",
+          "id": "577ccd39b6194cf5b99672354964d176"
+        },
+        {
+          "type": "Observatory",
+          "name": "Regional Axial",
+          "id": "9644d20fc74b424b9825dc2cf6a2431d"
+        },
+        {
+          "type": "Observatory",
+          "name": "Coastal Endurance Oregon Shelf",
+          "id": "d9e54f1b0e8f481881e3913a36462077"
+        },
+        {
+          "type": "Observatory",
+          "name": "Global Irminger Sea Mesoscale Flanking B",
+          "id": "54df5f1f824a46e4b8866e1a3d6685e4"
+        },
+        {
+          "type": "Observatory",
+          "name": "Global Irminger Sea Mesoscale Flanking A",
+          "id": "d6ef055da90a4149ba1122d073f7d9b0"
+        },
+        {
+          "type": "Observatory",
+          "name": "Global Station Papa Mobile Assets",
+          "id": "aabe98f9d4f14be4b8fb7fd61dd27047"
+        },
+        {
+          "type": "Observatory",
+          "name": "Coastal Endurance Mobile Assets",
+          "id": "a73d8d2306d74969b2701f2779c7ef47"
+        },
+        {
+          "type": "Observatory",
+          "name": "Regional Continental Margin Base",
+          "id": "ebe1029f328149ee980daefe1dd8a42c"
+        },
+        {
+          "type": "Observatory",
+          "name": "Coastal Pioneer Central Inshore",
+          "id": "dcb2d82afd504e1897a6602196ff5a69"
+        },
+        {
+          "type": "Observatory",
+          "name": "Regional Axial Central Caldera",
+          "id": "040f57d414a64b789cbc122bfe0a917c"
+        },
+        {
+          "type": "Observatory",
+          "name": "Global Irminger Sea Apex",
+          "id": "67a2c124e76d40aa913351f1767d122b"
+        },
+        {
+          "type": "Observatory",
+          "name": "Coastal Endurance Washington Shelf",
+          "id": "bb8ff5b455fa4722bc15de0e0eab6c43"
+        },
+        {
+          "type": "Observatory",
+          "name": "Global Argentine Basin Mesoscale Flanking A",
+          "id": "79c8b9d027cd4022b944628b63ce8832"
+        },
+        {
+          "type": "Observatory",
+          "name": "Coastal Pioneer Offshore",
+          "id": "6dd1e578a5af4117bfa4429d646a96ab"
+        },
+        {
+          "type": "Observatory",
+          "name": "Global Southern Ocean Mesoscale Flanking B",
+          "id": "a86e71af9f3143eebec27ad5484a27cd"
+        },
+        {
+          "type": "Observatory",
+          "name": "Coastal Pioneer Mobile Assets",
+          "id": "ec768722d59344c7bbeaee425a09c7b8"
+        },
+        {
+          "type": "Observatory",
+          "name": "Coastal Pioneer Central Offshore",
+          "id": "cbfd27c08b8845928d192e4458853182"
+        },
+        {
+          "type": "Observatory",
+          "name": "Coastal Endurance Oregon Offshore",
+          "id": "3c5e83e5b1ba488eb83b8f4d9d499053"
+        },
+        {
+          "type": "Observatory",
+          "name": "Global Southern Ocean Mesoscale Flanking A",
+          "id": "7437cfdc64744210af93ebcd85709d12"
+        },
+        {
+          "type": "Observatory",
+          "name": "Global Southern Ocean Apex",
+          "id": "38eec901ff0f4cc09098300107fd4e00"
+        },
+        {
+          "type": "Observatory",
+          "name": "Coastal Endurance Washington Offshore",
+          "id": "e32ead7ffec14dc9a2cb3de9cb707b96"
+        },
+        {
+          "type": "Observatory",
+          "name": "RSN Bench Testing",
+          "id": "a58b6d4b27bc4f42846117c56a171ec0"
+        },
+        {
+          "type": "Observatory",
+          "name": "EA Bench Testing",
+          "id": "7790aef119674e7ba5672d1c919f455d"
+        }
+      ]
+    ]
+  }
+}
