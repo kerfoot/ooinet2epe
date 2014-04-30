@@ -1,0 +1,779 @@
+{
+  "data": {
+    "GatewayResponse": {
+      "data_processes": [],
+      "owners": [],
+      "lcstate_transitions": {
+        "retire": "RETIRED"
+      },
+      "computed": {
+        "product_download_size_estimated": {
+          "status": 1,
+          "type_": "ComputedFloatValue",
+          "reason": "",
+          "value": 1276.890625
+        },
+        "number_active_subscriptions": {
+          "status": 1,
+          "type_": "ComputedIntValue",
+          "reason": "",
+          "value": 0
+        },
+        "data_url": {
+          "status": 1,
+          "type_": "ComputedStringValue",
+          "reason": "",
+          "value": "http://erddap.b.oceanobservatories.org:8080/erddap/tabledap/datae6b483fa5ef544cd8ff93e9e643129e6.html"
+        },
+        "recent_events_request": {
+          "service_name": "user_notification",
+          "type_": "ServiceRequest",
+          "request_parameters": {
+            "resource_id": "e6b483fa5ef544cd8ff93e9e643129e6"
+          },
+          "service_operation": "get_recent_events"
+        },
+        "recent_granules": {
+          "status": 2,
+          "type_": "ComputedDictValue",
+          "reason": "",
+          "value": {}
+        },
+        "parameters": {
+          "status": 1,
+          "type_": "ComputedListValue",
+          "reason": "",
+          "value": [
+            {
+              "lcstate": "DEPLOYED",
+              "_rev": "2",
+              "visible": true,
+              "standard_name": "time",
+              "availability": "AVAILABLE",
+              "description": "Time in seconds since 1900-01-01",
+              "display_name": "Time, seconds since 1900-01-01",
+              "code_report": "",
+              "parameter_type": "quantity",
+              "internal_name": "time",
+              "units": "seconds since 1900-01-01",
+              "addl": {},
+              "ooi_short_name": "",
+              "parameter_function_id": "",
+              "reference_urls": [
+                ""
+              ],
+              "precision": "5",
+              "ts_updated": "1391556910938",
+              "ts_created": "1391556910889",
+              "name": "time",
+              "parameter_context": {
+                "variability": "BOTH",
+                "_derived_from_name": "time",
+                "display_name": "Time, seconds since 1900-01-01",
+                "description": "Time in seconds since 1900-01-01",
+                "extension": {},
+                "axis": null,
+                "reference_urls": "",
+                "ooi_short_name": "",
+                "precision": "",
+                "label": "",
+                "visible": true,
+                "standard_name": "time",
+                "param_type": {
+                  "description": "",
+                  "extension": {},
+                  "constraint": null,
+                  "quality": null,
+                  "_fill_value": -9999999.0,
+                  "_template_attrs": {
+                    "fill_value": null,
+                    "quality": null,
+                    "uom": null,
+                    "nilValues": null,
+                    "constraint": null
+                  },
+                  "_value_module": "coverage_model.parameter_values",
+                  "name": "time",
+                  "label": "",
+                  "nilValues": null,
+                  "_identifier": null,
+                  "mutable": false,
+                  "_id": null,
+                  "cm_type": [
+                    "coverage_model.parameter_types",
+                    "QuantityType"
+                  ],
+                  "_value_encoding": "<f8",
+                  "uom": "seconds since 1900-01-01",
+                  "_value_class": "NumericValue"
+                },
+                "internal_name": "time",
+                "_identifier": null,
+                "mutable": false,
+                "_id": null,
+                "cm_type": [
+                  "coverage_model.parameter",
+                  "ParameterContext"
+                ],
+                "name": "time"
+              },
+              "alt_ids": [
+                "PRE:PD7"
+              ],
+              "value_encoding": "float64",
+              "fill_value": "-9999999",
+              "type_": "ParameterContext",
+              "_id": "2f850f6346c84f1ababcf2cde30171cb",
+              "parameter_function_map": "{}"
+            },
+            {
+              "lcstate": "DEPLOYED",
+              "_rev": "2",
+              "visible": true,
+              "standard_name": "",
+              "availability": "AVAILABLE",
+              "description": "",
+              "display_name": "sci_water_pracsal",
+              "code_report": "",
+              "parameter_type": "function",
+              "internal_name": "sci_water_pracsal",
+              "units": "1",
+              "addl": {},
+              "ooi_short_name": "PRACSAL_L2",
+              "parameter_function_id": "8c89df5140254e2894b8c80cf8e81636",
+              "reference_urls": [
+                "Gliders"
+              ],
+              "precision": "4",
+              "ts_updated": "1391557108102",
+              "ts_created": "1391557108036",
+              "name": "sci_water_pracsal",
+              "parameter_context": {
+                "variability": "BOTH",
+                "_derived_from_name": "sci_water_pracsal",
+                "display_name": "sci_water_pracsal",
+                "description": "",
+                "extension": {},
+                "axis": null,
+                "reference_urls": "Gliders",
+                "qc_contexts": [
+                  "6da7c28f07204e3e87c397d3fccf5e0e",
+                  "560c1b59870a43b1a4abaa14825192b3",
+                  "b84eadae836043348c9562eaa97290c0",
+                  "30732ca2f0364ae8b9fbfba260d89d75",
+                  "a03cd5e8154b42a992a4c09ea34898d3"
+                ],
+                "precision": "4",
+                "label": "",
+                "ooi_short_name": "PRACSAL_L2",
+                "visible": true,
+                "standard_name": "",
+                "param_type": {
+                  "function": {
+                    "name": "ctd_pracsal",
+                    "extension": {},
+                    "func_name": "ctd_pracsal",
+                    "kwarg_map": null,
+                    "param_map": {
+                      "p": "sci_water_pressure",
+                      "c": "sci_water_cond",
+                      "t": "sci_water_temp"
+                    },
+                    "owner": "ion_functions.data.ctd_functions",
+                    "mutable": false,
+                    "_id": null,
+                    "cm_type": [
+                      "coverage_model.parameter_functions",
+                      "PythonFunction"
+                    ],
+                    "arg_list": [
+                      "c",
+                      "t",
+                      "p"
+                    ]
+                  },
+                  "description": "",
+                  "extension": {},
+                  "quality": null,
+                  "_fill_value": -9999999.0,
+                  "_template_attrs": {
+                    "function": null,
+                    "fill_value": null,
+                    "_pctxt_callback": null,
+                    "_pval_callback": null,
+                    "quality": null,
+                    "nilValues": null
+                  },
+                  "_value_module": "coverage_model.parameter_values",
+                  "name": "sci_water_pracsal",
+                  "label": "",
+                  "_identifier": null,
+                  "mutable": false,
+                  "_id": null,
+                  "cm_type": [
+                    "coverage_model.parameter_types",
+                    "ParameterFunctionType"
+                  ],
+                  "_value_encoding": "<f4",
+                  "nilValues": null,
+                  "_value_class": "ParameterFunctionValue"
+                },
+                "internal_name": "sci_water_pracsal",
+                "_identifier": null,
+                "mutable": false,
+                "_id": null,
+                "cm_type": [
+                  "coverage_model.parameter",
+                  "ParameterContext"
+                ],
+                "uom": "1",
+                "name": "sci_water_pracsal"
+              },
+              "alt_ids": [
+                "PRE:PD1560"
+              ],
+              "value_encoding": "float32",
+              "fill_value": "-9999999",
+              "type_": "ParameterContext",
+              "_id": "7e8d564181514c88b1fb7bc032a35762",
+              "parameter_function_map": "{'c': 'PD1526', 't': 'PD1528', 'p': 'PD1527'}"
+            }
+          ]
+        },
+        "user_notifications_request": {
+          "service_name": "user_notification",
+          "type_": "ServiceRequest",
+          "request_parameters": {
+            "user_id": "",
+            "resource_id": "e6b483fa5ef544cd8ff93e9e643129e6"
+          },
+          "service_operation": "get_subscriptions_attribute"
+        },
+        "recent_events": {
+          "status": 1,
+          "type_": "ComputedEventListValue",
+          "reason": "",
+          "value": [
+            {
+              "origin": "e6b483fa5ef544cd8ff93e9e643129e6",
+              "lcstate_before": "PLANNED",
+              "description": "",
+              "_rev": "1",
+              "availability": "AVAILABLE",
+              "type_": "ResourceLifecycleEvent",
+              "transition_event": "",
+              "actor_id": "",
+              "availability_before": "AVAILABLE",
+              "base_types": [
+                "ResourceEvent",
+                "Event"
+              ],
+              "_id": "a17271ea9e6d41d0a9bd70161db2bc67",
+              "ts_created": "1391558266693",
+              "sub_type": "DEPLOYED.AVAILABLE",
+              "origin_type": "DataProduct",
+              "lcstate": "DEPLOYED"
+            },
+            {
+              "origin": "e6b483fa5ef544cd8ff93e9e643129e6",
+              "description": "",
+              "_rev": "1",
+              "mod_type": 1,
+              "type_": "ResourceModifiedEvent",
+              "actor_id": "",
+              "base_types": [
+                "ResourceEvent",
+                "Event"
+              ],
+              "_id": "c6bb16f95a664ea7903693bc37383ebe",
+              "ts_created": "1391558261356",
+              "sub_type": "CREATE",
+              "origin_type": "DataProduct"
+            }
+          ],
+          "computed_list": [
+            {
+              "ts_computed": "1396292798940",
+              "event_id": "a17271ea9e6d41d0a9bd70161db2bc67",
+              "event_summary": "DataProduct lifecycle state change. State: DEPLOYED  Availability: AVAILABLE",
+              "type_": "EventComputedAttributes",
+              "special_attributes": "",
+              "event_attributes_formatted": ""
+            },
+            {
+              "ts_computed": "1396292798940",
+              "event_id": "c6bb16f95a664ea7903693bc37383ebe",
+              "event_summary": "DataProduct modified: CREATE",
+              "type_": "EventComputedAttributes",
+              "special_attributes": "",
+              "event_attributes_formatted": ""
+            }
+          ]
+        },
+        "provenance": {
+          "status": 2,
+          "type_": "ComputedDictValue",
+          "reason": "",
+          "value": {}
+        },
+        "user_notification_requests": {
+          "status": 2,
+          "type_": "ComputedListValue",
+          "reason": "",
+          "value": []
+        },
+        "active_user_subscriptions": {
+          "status": 1,
+          "type_": "ComputedListValue",
+          "reason": "",
+          "value": []
+        },
+        "data_contents_updated": {
+          "status": 2,
+          "type_": "ComputedStringValue",
+          "reason": "Currently need to retrieve form the coverage",
+          "value": ""
+        },
+        "type_": "DataProductComputedAttributes",
+        "last_granule": {
+          "status": 1,
+          "type_": "ComputedDictValue",
+          "reason": "",
+          "value": {
+            "time": "time: 2013-10-25T02:05:59Z"
+          }
+        },
+        "is_persisted": {
+          "status": 1,
+          "type_": "ComputedIntValue",
+          "reason": "",
+          "value": false
+        },
+        "stored_data_size": {
+          "status": 1,
+          "type_": "ComputedIntValue",
+          "reason": "",
+          "value": 1338916864
+        },
+        "past_user_subscriptions": {
+          "status": 1,
+          "type_": "ComputedListValue",
+          "reason": "",
+          "value": []
+        },
+        "data_datetime": {
+          "status": 1,
+          "type_": "ComputedListValue",
+          "reason": "",
+          "value": [
+            "2013-07-13T00:35:44.210390",
+            "2013-10-25T02:05:59.022370"
+          ]
+        }
+      },
+      "extdataset": null,
+      "provenance_product_list": [],
+      "site": null,
+      "process_input_data_products": [],
+      "source_device": {
+        "lcstate": "DEPLOYED",
+        "_rev": "3",
+        "firmware_version": "",
+        "availability": "AVAILABLE",
+        "controllable": true,
+        "uuid": "",
+        "contacts": [
+          {
+            "individual_names_given": "John",
+            "city": "Falmouth",
+            "roles": [
+              "primary"
+            ],
+            "administrative_area": "",
+            "url": "",
+            "country": "USA",
+            "variables": [
+              {
+                "name": "",
+                "value": ""
+              }
+            ],
+            "organization_name": "Woods Hole Oceanographic (Raytheon)",
+            "type_": "ContactInformation",
+            "postal_code": "",
+            "individual_name_family": "Cosgrove",
+            "phones": [
+              {
+                "phone_number": "508-289-4904",
+                "phone_type": "office",
+                "type_": "Phone"
+              }
+            ],
+            "position_name": "OOI OMC admin",
+            "email": "jcosgrove@whoi.edu",
+            "street_address": ""
+          },
+          {
+            "individual_names_given": "Kurt",
+            "city": "",
+            "roles": [
+              "alternate"
+            ],
+            "administrative_area": "MA",
+            "url": "",
+            "country": "USA",
+            "variables": [
+              {
+                "name": "",
+                "value": ""
+              }
+            ],
+            "organization_name": "WHOI-OOI",
+            "type_": "ContactInformation",
+            "postal_code": "",
+            "individual_name_family": "Stiffel",
+            "phones": [
+              {
+                "phone_number": "508-289-3920",
+                "phone_type": "office",
+                "type_": "Phone"
+              }
+            ],
+            "position_name": "Instrument Lead",
+            "email": "Kurt_Stiffel@raytheon.com",
+            "street_address": ""
+          }
+        ],
+        "custom_attributes": {},
+        "monitorable": true,
+        "serial_number": "",
+        "addl": {},
+        "message_controllable": true,
+        "description": "Instrument GP05MOAS-GL003-04-CTDGVM999 device #01",
+        "reference_urls": [],
+        "ts_updated": "1391557195725",
+        "commissioned": 1,
+        "ts_created": "1391557195451",
+        "last_calibration_datetime": "",
+        "name": "CTD Glider on Glider 003 - Global Station Papa Mobile Assets",
+        "alt_ids": [
+          "PRE:GP05MOAS-GL003-04-CTDGVM999_ID"
+        ],
+        "hardware_version": "",
+        "type_": "InstrumentDevice",
+        "_id": "06117b6e8c19451898657c0fbe7d5f7c"
+      },
+      "commitments": [],
+      "type_": "DataProductExtension",
+      "version": null,
+      "availability_transitions": {
+        "retire": "PRIVATE",
+        "disable": "DISCOVERABLE",
+        "unannounce": "PRIVATE"
+      },
+      "policies": [],
+      "orgs": [
+        {
+          "message_controllable": true,
+          "_rev": "1",
+          "_id": "450a294db1884991abcde1d6a2571afa",
+          "lcstate": "DEPLOYED",
+          "alt_ids": [
+            "PRE:MF_CGSN"
+          ],
+          "url": "http://www.whoi.edu/ooi_cgsn/",
+          "description": "Marine Infrastructure managed by CGSN Marine IO",
+          "contacts": [
+            {
+              "individual_names_given": "Gabriela",
+              "city": "",
+              "roles": [
+                "primary"
+              ],
+              "administrative_area": "",
+              "url": "",
+              "country": "",
+              "variables": [
+                {
+                  "name": "",
+                  "value": ""
+                }
+              ],
+              "organization_name": "CGSN/Scripps Institution of Oceanography",
+              "type_": "ContactInformation",
+              "postal_code": "",
+              "individual_name_family": "Chavez",
+              "phones": [
+                {
+                  "phone_number": "858-822-4938",
+                  "phone_type": "office",
+                  "type_": "Phone"
+                }
+              ],
+              "position_name": "Operations Manager",
+              "email": "gchavez@ucsd.edu",
+              "street_address": ""
+            }
+          ],
+          "org_governance_name": "CGSN",
+          "institution": {
+            "website": "",
+            "phone": "",
+            "type_": "Institution",
+            "name": "Woods Hole Oceanographic Institution",
+            "email": ""
+          },
+          "ts_updated": "1391557014292",
+          "type_": "Org",
+          "monitorable": true,
+          "org_type": 2,
+          "addl": {},
+          "ts_created": "1391557014292",
+          "availability": "AVAILABLE",
+          "name": "CGSN Facility"
+        }
+      ],
+      "ext_associations": {},
+      "resource": {
+        "comment": "",
+        "citation_description": "",
+        "lcstate": "DEPLOYED",
+        "qc_spketest": "applicable",
+        "_rev": "2",
+        "quality_control_level": "b",
+        "synonyms": [],
+        "flow_diagram_dcn": "[DCN 1342-00010|https://alfresco.oceanobservatories.org/alfresco/d/d/workspace/SpacesStore/a2d4b90f-145f-44f6-bf03-6e720d87893c/1342-00010_Data_Processing_Flow_CTD_OOI.pdf]",
+        "naming_authority_id": "",
+        "doors_l2_requirement_num": "L2-SR-RQ-3064",
+        "qc_gradtst": "applicable",
+        "iso_topic_category": [],
+        "availability": "AVAILABLE",
+        "regime": "Water Column",
+        "exclusive_rights_end_date": "",
+        "contacts": [
+          {
+            "individual_names_given": "John",
+            "city": "Falmouth",
+            "roles": [
+              "primary"
+            ],
+            "administrative_area": "",
+            "url": "",
+            "country": "USA",
+            "variables": [
+              {
+                "name": "",
+                "value": ""
+              }
+            ],
+            "organization_name": "Woods Hole Oceanographic (Raytheon)",
+            "type_": "ContactInformation",
+            "postal_code": "",
+            "individual_name_family": "Cosgrove",
+            "phones": [
+              {
+                "phone_number": "508-289-4904",
+                "phone_type": "office",
+                "type_": "Phone"
+              }
+            ],
+            "position_name": "OOI OMC admin",
+            "email": "jcosgrove@whoi.edu",
+            "street_address": ""
+          },
+          {
+            "individual_names_given": "Kurt",
+            "city": "",
+            "roles": [
+              "alternate"
+            ],
+            "administrative_area": "MA",
+            "url": "",
+            "country": "USA",
+            "variables": [
+              {
+                "name": "",
+                "value": ""
+              }
+            ],
+            "organization_name": "WHOI-OOI",
+            "type_": "ContactInformation",
+            "postal_code": "",
+            "individual_name_family": "Stiffel",
+            "phones": [
+              {
+                "phone_number": "508-289-3920",
+                "phone_type": "office",
+                "type_": "Phone"
+              }
+            ],
+            "position_name": "Instrument Lead",
+            "email": "Kurt_Stiffel@raytheon.com",
+            "street_address": ""
+          }
+        ],
+        "qc_polyval": "not applicable",
+        "ts_created": "1391558261327",
+        "exclusive_rights_status": "",
+        "dps_dcn": "[DCN 1341-00040|https://alfresco.oceanobservatories.org/alfresco/d/d/workspace/SpacesStore/bab9685d-bb16-44c2-88a5-1e8e8f0508fe/1341-00040_Data_Product_SPEC_PRACSAL_OOI.pdf]",
+        "exclusive_rights_notes": "",
+        "lineage_description": "",
+        "qc_stuckvl": "applicable",
+        "qc_trndtst": "not applicable",
+        "addl": {},
+        "dataset_configuration_id": "",
+        "geospatial_bounds": {
+          "geospatial_latitude_limit_south": 49.5,
+          "geospatial_vertical_max": 1000.0,
+          "type_": "GeospatialBounds",
+          "geospatial_latitude_limit_north": 51.0,
+          "geospatial_longitude_limit_west": -146.0,
+          "geospatial_vertical_min": 0.0,
+          "geospatial_longitude_limit_east": -143.7
+        },
+        "ioos_category": "",
+        "doors_l2_requirement_text": "Salinity",
+        "ooi_short_name": "PRACSAL",
+        "description": "Instrument GP05MOAS-GL003-04-CTDGVM999 core OOI data product",
+        "qc_cmbnflg": "not applicable",
+        "qc_interp1": "not applicable",
+        "descriptors": [],
+        "reference_urls": [],
+        "qc_modulus": "not applicable",
+        "ISO_spatial_representation_type": "",
+        "processing_level_code": "L2",
+        "ts_updated": "1391558266663",
+        "external_archives": [],
+        "qc_condcmp": "not applicable",
+        "nominal_datetime": {
+          "start_datetime": "",
+          "type_": "TemporalBounds",
+          "name": "",
+          "end_datetime": ""
+        },
+        "spatial_domain": {
+          "crs": {
+            "description": "",
+            "extension": {},
+            "axes": {
+              "LAT": null,
+              "LON": null,
+              "HEIGHT": null
+            },
+            "label": "",
+            "_identifier": null,
+            "mutable": false,
+            "_id": null,
+            "cm_type": [
+              "coverage_model.coverage",
+              "CRS"
+            ]
+          },
+          "description": "",
+          "extension": {},
+          "label": "",
+          "shape": {
+            "extents": [
+              0
+            ],
+            "description": "",
+            "extension": {},
+            "label": "",
+            "_identifier": null,
+            "mutable": false,
+            "_id": null,
+            "cm_type": [
+              "coverage_model.coverage",
+              "GridShape"
+            ],
+            "name": "spatial"
+          },
+          "_identifier": null,
+          "mutability": "IMMUTABLE",
+          "mutable": false,
+          "_id": null,
+          "cm_type": [
+            "coverage_model.coverage",
+            "GridDomain"
+          ]
+        },
+        "name": "Practical Salinity L2 CTDGV Glider 003 - Global Station Papa Mobile Assets",
+        "qc_loclrng": "applicable",
+        "alt_ids": [
+          "PRE:GP05MOAS-GL003-04-CTDGVM999_PRACSAL_L2_DPID"
+        ],
+        "geospatial_coordinate_reference_system": {
+          "geospatial_latitude_units": "degrees_north",
+          "geospatial_vertical_crs": "http://www.opengis.net/def/cs/EPSG/0/6498",
+          "type_": "GeospatialCoordinateReferenceSystem",
+          "geospatial_geodetic_crs": "http://www.opengis.net/def/crs/EPSG/0/4326",
+          "geospatial_vertical_positive": "down",
+          "geospatial_vertical_units": "meter",
+          "geospatial_longitude_units": "degrees_east"
+        },
+        "qc_solarel": "not applicable",
+        "acknowledgement": "",
+        "iso_spatial_representation_type": "",
+        "license_uri": "",
+        "type_": "DataProduct",
+        "qc_glblrng": "applicable",
+        "ooi_product_name": "Practical Salinity",
+        "geospatial_point_center": {
+          "lat": 50.255737,
+          "type_": "GeospatialIndex",
+          "lon": -144.831946
+        },
+        "temporal_domain": {
+          "crs": {
+            "description": "",
+            "extension": {},
+            "axes": {
+              "TIME": null
+            },
+            "label": "",
+            "_identifier": null,
+            "mutable": false,
+            "_id": null,
+            "cm_type": [
+              "coverage_model.coverage",
+              "CRS"
+            ]
+          },
+          "description": "",
+          "extension": {},
+          "label": "",
+          "shape": {
+            "extents": [
+              0
+            ],
+            "description": "",
+            "extension": {},
+            "label": "",
+            "_identifier": null,
+            "mutable": false,
+            "_id": null,
+            "cm_type": [
+              "coverage_model.coverage",
+              "GridShape"
+            ],
+            "name": "temporal"
+          },
+          "_identifier": null,
+          "mutability": "EXTENSIBLE",
+          "mutable": false,
+          "_id": null,
+          "cm_type": [
+            "coverage_model.coverage",
+            "GridDomain"
+          ]
+        },
+        "_id": "e6b483fa5ef544cd8ff93e9e643129e6",
+        "provenance_description": ""
+      },
+      "_id": "e6b483fa5ef544cd8ff93e9e643129e6",
+      "ts_created": "1396292799135",
+      "data_ingestion_datetime": "2013-10-25T02:05:59.022370",
+      "attachments": []
+    }
+  }
+}
