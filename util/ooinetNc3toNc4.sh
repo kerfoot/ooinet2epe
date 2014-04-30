@@ -12,7 +12,7 @@
 # ============================================================================
 #
 
-PATH=${PATH}:/bin:/home/kerfoot/Enthought/Canopy_64bit/User/bin;
+PATH=/usr/bin:/bin;
 
 app=$(basename $0);
 
@@ -73,6 +73,7 @@ fi
 
 for f in $@
 do
-    nc3tonc4 $f ${OUT_DIR}/$(basename $f .nc).nc4.nc;
+#    nc3tonc4 $f ${OUT_DIR}/$(basename $f .nc).nc4.nc;
+    ncdump $f | ncgen -k 4 -o ${OUT_DIR}/$(basename $f .nc).nc4.nc;
 done
 
