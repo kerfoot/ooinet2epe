@@ -1,0 +1,43 @@
+netcdf GP05MOAS-Glider-001-CONDWAT-80f631f1fc2e4f239bf94e526a176ec3 {
+dimensions:
+	row = 78719 ;
+variables:
+	double sci_water_cond(row) ;
+		sci_water_cond:actual_range = 0., 4.09281 ;
+		sci_water_cond:display_name = "Conductivity, S/m" ;
+		sci_water_cond:internal_name = "sci_water_cond" ;
+		sci_water_cond:ioos_category = "Unknown" ;
+		sci_water_cond:long_name = "Conductivity, S/m" ;
+		sci_water_cond:ooi_short_name = "CONDWAT_L1" ;
+		sci_water_cond:precision = "4" ;
+		sci_water_cond:reference_urls = "Gliders" ;
+		sci_water_cond:units = "S m-1" ;
+	double time(row) ;
+		time:_CoordinateAxisType = "Time" ;
+		time:actual_range = 1374259006.3248, 1394193745.27017 ;
+		time:axis = "T" ;
+		time:display_name = "Time, seconds since 1900-01-01" ;
+		time:internal_name = "time" ;
+		time:ioos_category = "Time" ;
+		time:long_name = "Time, seconds since 1900-01-01" ;
+		time:standard_name = "time" ;
+		time:time_origin = "01-JAN-1970 00:00:00" ;
+		time:time_precision = "1970-01-01T00:00:00.000Z" ;
+		time:units = "seconds since 1970-01-01T00:00:00Z" ;
+
+// global attributes:
+		:cdm_data_type = "Other" ;
+		:Conventions = "COARDS, CF-1.6, Unidata Dataset Discovery v1.0" ;
+		:history = "2014-03-17T18:50:33Z http://sg.b.oceanobservatories.org:10999/99acf532886d4fb5aaab151d0975917a\n",
+			"2014-03-17T18:50:33Z http://r2-erddap-prod.oceanobservatories.org:8080/erddap/tabledap/data80f631f1fc2e4f239bf94e526a176ec3.nc" ;
+		:id = "data80f631f1fc2e4f239bf94e526a176ec3_8571_f367_229e" ;
+		:infoUrl = "http://ion-beta.oceanobservatories.org/DataProduct/face/80f631f1fc2e4f239bf94e526a176ec3" ;
+		:institution = "OOI" ;
+		:license = "These data were collected by the Ocean Observatory Initiative (OOI) project purely for internal system development purposes during the construction phase of the project and are offered for release to the public with no assurance of data quality, consistency, temporal continuity or additional support. The OOI Program assumes no liability resulting from the use of these data for other than the intended purpose. No data quality assurance steps have been implemented on this data to date." ;
+		:sourceUrl = "http://sg.b.oceanobservatories.org:10999/99acf532886d4fb5aaab151d0975917a" ;
+		:standard_name_vocabulary = "CF-12" ;
+		:summary = "99acf532886d4fb5aaab151d0975917a" ;
+		:time_coverage_end = "2014-03-07T12:02:25Z" ;
+		:time_coverage_start = "2013-07-19T18:36:46Z" ;
+		:title = "Conductivity L1 CTDGV Glider 001 - Global Station Papa Mobile Assets" ;
+}

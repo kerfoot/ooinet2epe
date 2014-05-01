@@ -1,12 +1,11 @@
-import myon.constants
 import urllib2
 import json
+import re
 
-# Url pieces
-#ION_A_URL = 'http://sg.a.oceanobservatories.org:5000/ion-service'
-#ION_B_URL = 'http://sg.b.oceanobservatories.org:5000/ion-service'
-#ION_URL = ION_B_URL
-
+def validateId(resourceId):
+    
+    return re.search('^[0-9a-z]{32}$', resourceId)
+    
 # url = createIonUrl(service,action,params)
 #
 # Creates a properly formatted ION Service Gateway url for the specified 
@@ -72,11 +71,11 @@ def getResources(restype):
     
     return obj
     
-# obj = readResourceId(resource_id)
+# obj = readResource(resource_id)
 # 
 # General purpose routine to retrieve metadata for the resource identified by 
 # resource id.
-def readResourceId(resource_id):
+def readResource(resource_id):
     
     service = 'resource_registry'
     action = 'read'
@@ -90,3 +89,77 @@ def readResourceId(resource_id):
     
     return obj
     
+def getObservatoryExt(resourceId):
+    
+    obsExt = {}
+    
+    if not validateId(resourceId):
+        return obsExt
+        
+    service = 'observatory_management'
+    action = 'get_observatory_site_extension'
+    params = {'site_id' : resourceId}
+    
+    url = createIonUrl(service, action, params)
+    
+    response = getRequest(url)
+    
+    if not 'GatewayResponse' in response['data']:
+        return obsExt
+    
+    obsExt = response['data']['GatewayResponse']
+    
+    # Add the ion url we accessed to get the PlatformSite extension
+    obsExt['ion_url'] = url
+    
+    return obsExt
+    
+def getPlatformSiteExt(resourceId):
+    
+    platformSiteExt = {}
+    
+    if not validateId(resourceId):
+        return platformSiteExt
+        
+    service = 'observatory_management'
+    action = 'get_platform_station_site_extension'
+    params = {'site_id' : resourceId}
+    
+    url = createIonUrl(service, action, params)
+    
+    response = getRequest(url)
+    
+    if not 'GatewayResponse' in response['data']:
+        return platformSiteExt
+    
+    platformSiteExt = response['data']['GatewayResponse']
+    
+    # Add the ion url we accessed to get the PlatformSite extension
+    platformSiteExt['ion_url'] = url
+    
+    return platformSiteExt
+    
+def getDataProductExt(resourceId):
+    
+    dataProductExt = {}
+    
+    if not validateId(resourceId):
+        return dataProductExt
+        
+    service = 'data_product_management'
+    action = 'get_data_product_extension'
+    params = {'data_product_id' : resourceId}
+    
+    url = createIonUrl(service, action, params)
+    
+    response = getRequest(url)
+    
+    if not 'GatewayResponse' in response['data']:
+        return dataProductExt
+    
+    dataProductExt = response['data']['GatewayResponse']
+    
+    # Add the ion url we accessed to get the PlatformSite extension
+    dataProductExt['ion_url'] = url
+    
+    return dataProductExt
