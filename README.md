@@ -1,4 +1,4 @@
-OOINet to EPE NetCDF Conversion Tools
+OOI-EPE Data Products
 =====================================
 
 A set of tools for finding and downloading NetCDF files from the OOINet ERDDAP
