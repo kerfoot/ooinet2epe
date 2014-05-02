@@ -1,0 +1,500 @@
+{
+  "data": {
+    "GatewayResponse": {
+      "data_processes": [], 
+      "owners": [], 
+      "lcstate_transitions": {
+        "retire": "RETIRED"
+      }, 
+      "computed": {
+        "product_download_size_estimated": {
+          "status": 1, 
+          "type_": "ComputedFloatValue", 
+          "reason": "", 
+          "value": 5220.96875
+        }, 
+        "number_active_subscriptions": {
+          "status": 1, 
+          "type_": "ComputedIntValue", 
+          "reason": "", 
+          "value": 0
+        }, 
+        "data_url": {
+          "status": 1, 
+          "type_": "ComputedStringValue", 
+          "reason": "", 
+          "value": "http://erddap.b.oceanobservatories.org:8080/erddap/tabledap/dataca73aaba72184d748847bf95ba53fe6b.html"
+        }, 
+        "recent_events_request": {
+          "service_name": "user_notification", 
+          "type_": "ServiceRequest", 
+          "request_parameters": {
+            "resource_id": "ca73aaba72184d748847bf95ba53fe6b"
+          }, 
+          "service_operation": "get_recent_events"
+        }, 
+        "recent_granules": {
+          "status": 2, 
+          "type_": "ComputedDictValue", 
+          "reason": "", 
+          "value": {}
+        }, 
+        "parameters": {
+          "status": 1, 
+          "type_": "ComputedListValue", 
+          "reason": "", 
+          "value": [
+            {
+              "display_name": "Time, seconds since 1900-01-01", 
+              "description": "Time in seconds since 1900-01-01", 
+              "value_encoding": "float64", 
+              "lcstate": "DEPLOYED", 
+              "ts_updated": "1391556910938", 
+              "type_": "ParameterContext", 
+              "units": "seconds since 1900-01-01", 
+              "_id": "2f850f6346c84f1ababcf2cde30171cb", 
+              "availability": "AVAILABLE", 
+              "name": "time"
+            }, 
+            {
+              "display_name": "Estimated Chlorophyll, ug L-1", 
+              "description": "Estimated Chlorophyll concentration from fluroesence measurements", 
+              "value_encoding": "float32", 
+              "lcstate": "DEPLOYED", 
+              "ts_updated": "1391557106929", 
+              "type_": "ParameterContext", 
+              "units": "ug L-1", 
+              "_id": "cabb25d979f74472a5026d8abfdfdf82", 
+              "availability": "AVAILABLE", 
+              "name": "sci_flbb_chlor_units"
+            }
+          ]
+        }, 
+        "user_notifications_request": {
+          "service_name": "user_notification", 
+          "type_": "ServiceRequest", 
+          "request_parameters": {
+            "user_id": "", 
+            "resource_id": "ca73aaba72184d748847bf95ba53fe6b"
+          }, 
+          "service_operation": "get_subscriptions_attribute"
+        }, 
+        "recent_events": {
+          "status": 1, 
+          "type_": "ComputedEventListValue", 
+          "reason": "", 
+          "value": [
+            {
+              "type_": "ResourceModifiedEvent", 
+              "ts_created": "1391804699518"
+            }, 
+            {
+              "type_": "ResourceLifecycleEvent", 
+              "ts_created": "1391559043646"
+            }, 
+            {
+              "type_": "ResourceModifiedEvent", 
+              "ts_created": "1391559037220"
+            }
+          ], 
+          "computed_list": [
+            {
+              "event_summary": "DataProduct modified: UPDATE"
+            }, 
+            {
+              "event_summary": "DataProduct lifecycle state change. State: DEPLOYED  Availability: AVAILABLE"
+            }, 
+            {
+              "event_summary": "DataProduct modified: CREATE"
+            }
+          ]
+        }, 
+        "provenance": {
+          "status": 2, 
+          "type_": "ComputedDictValue", 
+          "reason": "", 
+          "value": {}
+        }, 
+        "user_notification_requests": {
+          "status": 2, 
+          "type_": "ComputedListValue", 
+          "reason": "", 
+          "value": []
+        }, 
+        "active_user_subscriptions": {
+          "status": 1, 
+          "type_": "ComputedListValue", 
+          "reason": "", 
+          "value": []
+        }, 
+        "data_contents_updated": {
+          "status": 2, 
+          "type_": "ComputedStringValue", 
+          "reason": "Currently need to retrieve form the coverage", 
+          "value": ""
+        }, 
+        "type_": "DataProductComputedAttributes", 
+        "last_granule": {
+          "status": 1, 
+          "type_": "ComputedDictValue", 
+          "reason": "", 
+          "value": {
+            "sci_flbb_chlor_units": "sci_flbb_chlor_units: 0.0000", 
+            "time": "time: 2014-04-25T20:27:33Z"
+          }
+        }, 
+        "is_persisted": {
+          "status": 1, 
+          "type_": "ComputedIntValue", 
+          "reason": "", 
+          "value": false
+        }, 
+        "stored_data_size": {
+          "status": 1, 
+          "type_": "ComputedIntValue", 
+          "reason": "", 
+          "value": 5474582528
+        }, 
+        "past_user_subscriptions": {
+          "status": 1, 
+          "type_": "ComputedListValue", 
+          "reason": "", 
+          "value": []
+        }, 
+        "data_datetime": {
+          "status": 1, 
+          "type_": "ComputedListValue", 
+          "reason": "", 
+          "value": [
+            "2013-07-19T18:36:46.324800", 
+            "2014-04-25T20:27:33.338500"
+          ]
+        }
+      }, 
+      "extdataset": null, 
+      "provenance_product_list": [], 
+      "site": null, 
+      "process_input_data_products": [], 
+      "source_device": {
+        "description": "Instrument GP05MOAS-GL001-01-FLORDM999 device #01", 
+        "lcstate": "DEPLOYED", 
+        "ts_updated": "1391557203115", 
+        "type_": "InstrumentDevice", 
+        "_id": "b56081c4735444d7ad7fec8c50ad54aa", 
+        "availability": "AVAILABLE", 
+        "name": "2-Wavelength Fluorometer on Glider 001 - Global Station Papa Mobile Assets"
+      }, 
+      "commitments": [], 
+      "type_": "DataProductExtension", 
+      "version": null, 
+      "availability_transitions": {
+        "retire": "PRIVATE", 
+        "disable": "DISCOVERABLE", 
+        "unannounce": "PRIVATE"
+      }, 
+      "policies": [], 
+      "orgs": [
+        {
+          "message_controllable": true, 
+          "_rev": "1", 
+          "_id": "450a294db1884991abcde1d6a2571afa", 
+          "lcstate": "DEPLOYED", 
+          "alt_ids": [
+            "PRE:MF_CGSN"
+          ], 
+          "url": "http://www.whoi.edu/ooi_cgsn/", 
+          "description": "Marine Infrastructure managed by CGSN Marine IO", 
+          "contacts": [
+            {
+              "individual_names_given": "Gabriela", 
+              "city": "", 
+              "roles": [
+                "primary"
+              ], 
+              "administrative_area": "", 
+              "url": "", 
+              "country": "", 
+              "variables": [
+                {
+                  "name": "", 
+                  "value": ""
+                }
+              ], 
+              "organization_name": "CGSN/Scripps Institution of Oceanography", 
+              "type_": "ContactInformation", 
+              "postal_code": "", 
+              "individual_name_family": "Chavez", 
+              "phones": [
+                {
+                  "phone_number": "858-822-4938", 
+                  "phone_type": "office", 
+                  "type_": "Phone"
+                }
+              ], 
+              "position_name": "Operations Manager", 
+              "email": "gchavez@ucsd.edu", 
+              "street_address": ""
+            }
+          ], 
+          "org_governance_name": "CGSN", 
+          "institution": {
+            "website": "", 
+            "phone": "", 
+            "type_": "Institution", 
+            "name": "Woods Hole Oceanographic Institution", 
+            "email": ""
+          }, 
+          "ts_updated": "1391557014292", 
+          "type_": "Org", 
+          "monitorable": true, 
+          "org_type": 2, 
+          "addl": {}, 
+          "ts_created": "1391557014292", 
+          "availability": "AVAILABLE", 
+          "name": "CGSN Facility"
+        }
+      ], 
+      "ext_associations": {}, 
+      "resource": {
+        "comment": "", 
+        "citation_description": "", 
+        "lcstate": "DEPLOYED", 
+        "qc_spketest": "not applicable", 
+        "_rev": "3", 
+        "quality_control_level": "a", 
+        "synonyms": [], 
+        "flow_diagram_dcn": "[DCN 1342-00531|https://alfresco.oceanobservatories.org/alfresco/d/d/workspace/SpacesStore/f06ae944-8f55-40c0-a410-3af93cc9f2c6/1342-00531_Data_Processing_Flow_FLORD_OOI.pdf] (FLORD), [DCN 1342-00530|https://alfresco.oceanobservatories.org/alfresco/d/d/workspace/SpacesStore/555778c3-b51d-4a68-b472-ad45101dd509/1342-00530_Data_Processing_Flow_FLORT_OOI.pdf] (FLORT)", 
+        "naming_authority_id": "", 
+        "doors_l2_requirement_num": "L2-SR-RQ-3185", 
+        "qc_gradtst": "not applicable", 
+        "iso_topic_category": [], 
+        "availability": "AVAILABLE", 
+        "regime": "Water Column", 
+        "exclusive_rights_end_date": "", 
+        "contacts": [
+          {
+            "individual_names_given": "John", 
+            "city": "Falmouth", 
+            "roles": [
+              "primary"
+            ], 
+            "administrative_area": "", 
+            "url": "", 
+            "country": "USA", 
+            "variables": [
+              {
+                "name": "", 
+                "value": ""
+              }
+            ], 
+            "organization_name": "Woods Hole Oceanographic (Raytheon)", 
+            "type_": "ContactInformation", 
+            "postal_code": "", 
+            "individual_name_family": "Cosgrove", 
+            "phones": [
+              {
+                "phone_number": "508-289-4904", 
+                "phone_type": "office", 
+                "type_": "Phone"
+              }
+            ], 
+            "position_name": "OOI OMC admin", 
+            "email": "jcosgrove@whoi.edu", 
+            "street_address": ""
+          }, 
+          {
+            "individual_names_given": "Kurt", 
+            "city": "", 
+            "roles": [
+              "alternate"
+            ], 
+            "administrative_area": "MA", 
+            "url": "", 
+            "country": "USA", 
+            "variables": [
+              {
+                "name": "", 
+                "value": ""
+              }
+            ], 
+            "organization_name": "WHOI-OOI", 
+            "type_": "ContactInformation", 
+            "postal_code": "", 
+            "individual_name_family": "Stiffel", 
+            "phones": [
+              {
+                "phone_number": "508-289-3920", 
+                "phone_type": "office", 
+                "type_": "Phone"
+              }
+            ], 
+            "position_name": "Instrument Lead", 
+            "email": "Kurt_Stiffel@raytheon.com", 
+            "street_address": ""
+          }
+        ], 
+        "qc_polyval": "not applicable", 
+        "ts_created": "1391559037191", 
+        "exclusive_rights_status": "", 
+        "dps_dcn": "[DCN 1341-00530|https://alfresco.oceanobservatories.org/alfresco/d/d/workspace/SpacesStore/de7bff13-c7a6-4e50-8a13-8c9e52c9b83f/1341-00530_Data_Product_SPEC_CHLAFLO_OOI.pdf]", 
+        "exclusive_rights_notes": "", 
+        "lineage_description": "", 
+        "qc_stuckvl": "not applicable", 
+        "qc_trndtst": "not applicable", 
+        "addl": {}, 
+        "dataset_configuration_id": "", 
+        "geospatial_bounds": {
+          "geospatial_latitude_limit_south": 49.5, 
+          "geospatial_vertical_max": 1000.0, 
+          "type_": "GeospatialBounds", 
+          "geospatial_latitude_limit_north": 51.0, 
+          "geospatial_longitude_limit_west": -146.0, 
+          "geospatial_vertical_min": 0.0, 
+          "geospatial_longitude_limit_east": -143.5
+        }, 
+        "ioos_category": "", 
+        "doors_l2_requirement_text": "Chlorophyll-a fluorescence", 
+        "ooi_short_name": "CHLAFLO", 
+        "description": "Instrument GP05MOAS-GL001-01-FLORDM999 core OOI data product", 
+        "qc_cmbnflg": "not applicable", 
+        "qc_interp1": "not applicable", 
+        "descriptors": [], 
+        "reference_urls": [], 
+        "qc_modulus": "not applicable", 
+        "ISO_spatial_representation_type": "", 
+        "processing_level_code": "L1", 
+        "ts_updated": "1391804699517", 
+        "external_archives": [], 
+        "qc_condcmp": "not applicable", 
+        "nominal_datetime": {
+          "start_datetime": "1363046400", 
+          "type_": "TemporalBounds", 
+          "name": "deployment 1", 
+          "end_datetime": "1363060400"
+        }, 
+        "spatial_domain": {
+          "crs": {
+            "description": "", 
+            "extension": {}, 
+            "axes": {
+              "LAT": null, 
+              "LON": null, 
+              "HEIGHT": null
+            }, 
+            "label": "", 
+            "mutable": false, 
+            "_identifier": null, 
+            "_id": null, 
+            "cm_type": [
+              "coverage_model.coverage", 
+              "CRS"
+            ]
+          }, 
+          "description": "", 
+          "extension": {}, 
+          "label": "", 
+          "shape": {
+            "extents": [
+              0
+            ], 
+            "description": "", 
+            "extension": {}, 
+            "label": "", 
+            "mutable": false, 
+            "_identifier": null, 
+            "_id": null, 
+            "cm_type": [
+              "coverage_model.coverage", 
+              "GridShape"
+            ], 
+            "name": "spatial"
+          }, 
+          "mutable": false, 
+          "mutability": "IMMUTABLE", 
+          "_identifier": null, 
+          "_id": null, 
+          "cm_type": [
+            "coverage_model.coverage", 
+            "GridDomain"
+          ]
+        }, 
+        "name": "Fluorometric Chlorophyll-a Concentration L1 FLORD Glider 001 - Global Station Papa Mobile Assets", 
+        "qc_loclrng": "not applicable", 
+        "alt_ids": [
+          "PRE:GP05MOAS-GL001-01-FLORDM999_CHLAFLO_L1_DPID"
+        ], 
+        "geospatial_coordinate_reference_system": {
+          "geospatial_latitude_units": "degrees_north", 
+          "geospatial_vertical_crs": "http://www.opengis.net/def/cs/EPSG/0/6498", 
+          "type_": "GeospatialCoordinateReferenceSystem", 
+          "geospatial_geodetic_crs": "http://www.opengis.net/def/crs/EPSG/0/4326", 
+          "geospatial_vertical_positive": "down", 
+          "geospatial_vertical_units": "meter", 
+          "geospatial_longitude_units": "degrees_east"
+        }, 
+        "qc_solarel": "not applicable", 
+        "acknowledgement": "", 
+        "iso_spatial_representation_type": "", 
+        "license_uri": "", 
+        "type_": "DataProduct", 
+        "qc_glblrng": "not applicable", 
+        "ooi_product_name": "Fluorometric Chlorophyll-a Concentration", 
+        "geospatial_point_center": {
+          "lat": 50.256769, 
+          "type_": "GeospatialIndex", 
+          "lon": -144.730376
+        }, 
+        "temporal_domain": {
+          "crs": {
+            "description": "", 
+            "extension": {}, 
+            "axes": {
+              "TIME": null
+            }, 
+            "label": "", 
+            "mutable": false, 
+            "_identifier": null, 
+            "_id": null, 
+            "cm_type": [
+              "coverage_model.coverage", 
+              "CRS"
+            ]
+          }, 
+          "description": "", 
+          "extension": {}, 
+          "label": "", 
+          "shape": {
+            "extents": [
+              0
+            ], 
+            "description": "", 
+            "extension": {}, 
+            "label": "", 
+            "mutable": false, 
+            "_identifier": null, 
+            "_id": null, 
+            "cm_type": [
+              "coverage_model.coverage", 
+              "GridShape"
+            ], 
+            "name": "temporal"
+          }, 
+          "mutable": false, 
+          "mutability": "EXTENSIBLE", 
+          "_identifier": null, 
+          "_id": null, 
+          "cm_type": [
+            "coverage_model.coverage", 
+            "GridDomain"
+          ]
+        }, 
+        "_id": "ca73aaba72184d748847bf95ba53fe6b", 
+        "provenance_description": ""
+      }, 
+      "_id": "ca73aaba72184d748847bf95ba53fe6b", 
+      "ts_created": "1399063615611", 
+      "data_ingestion_datetime": "2014-04-25T20:27:33.338500", 
+      "attachments": []
+    }
+  }
+}

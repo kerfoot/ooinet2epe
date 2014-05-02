@@ -1,0 +1,886 @@
+{
+  "data": {
+    "GatewayResponse": {
+      "platform_devices": [
+        {
+          "description": "Platform GP05MOAS-GL001 device #01", 
+          "lcstate": "DEPLOYED", 
+          "ts_updated": "1391557176841", 
+          "type_": "PlatformDevice", 
+          "_id": "028cc6cd4c7048eb9d38eeca274e5091", 
+          "availability": "AVAILABLE", 
+          "name": "Glider 001 - Global Station Papa Mobile Assets"
+        }
+      ], 
+      "instrument_devices": [
+        {
+          "description": "Instrument GP05MOAS-GL001-02-DOSTAM999 device #01", 
+          "lcstate": "DEPLOYED", 
+          "ts_updated": "1391557197578", 
+          "type_": "InstrumentDevice", 
+          "_id": "2d28a411b54c46d895354ea1aa50d548", 
+          "availability": "AVAILABLE", 
+          "name": "Dissolved Oxygen Stable Response on Glider 001 - Global Station Papa Mobile Assets"
+        }, 
+        {
+          "description": "Instrument GP05MOAS-GL001-04-CTDGVM999 device #01", 
+          "lcstate": "DEPLOYED", 
+          "ts_updated": "1391557201268", 
+          "type_": "InstrumentDevice", 
+          "_id": "b93a292f00674e63bc04513bf9b8e223", 
+          "availability": "AVAILABLE", 
+          "name": "CTD Glider on Glider 001 - Global Station Papa Mobile Assets"
+        }, 
+        {
+          "description": "Instrument GP05MOAS-GL001-01-FLORDM999 device #01", 
+          "lcstate": "DEPLOYED", 
+          "ts_updated": "1391557203115", 
+          "type_": "InstrumentDevice", 
+          "_id": "b56081c4735444d7ad7fec8c50ad54aa", 
+          "availability": "AVAILABLE", 
+          "name": "2-Wavelength Fluorometer on Glider 001 - Global Station Papa Mobile Assets"
+        }
+      ], 
+      "ext_associations": {}, 
+      "computed": {
+        "number_instruments": {
+          "status": 2, 
+          "type_": "ComputedIntValue", 
+          "reason": "", 
+          "value": 0
+        }, 
+        "site_status": {
+          "status": 1, 
+          "type_": "ComputedListValue", 
+          "reason": "", 
+          "value": [
+            2, 
+            2, 
+            2
+          ]
+        }, 
+        "recent_events": {
+          "status": 1, 
+          "type_": "ComputedEventListValue", 
+          "reason": "", 
+          "value": [
+            {
+              "type_": "ResourceModifiedEvent", 
+              "ts_created": "1391557148588"
+            }
+          ], 
+          "computed_list": [
+            {
+              "event_summary": "PlatformSite modified: CREATE"
+            }
+          ]
+        }, 
+        "number_platforms_deployed": {
+          "status": 2, 
+          "type_": "ComputedIntValue", 
+          "reason": "", 
+          "value": 0
+        }, 
+        "communications_status_roll_up": {
+          "status": 1, 
+          "type_": "ComputedIntValue", 
+          "reason": "", 
+          "value": 2
+        }, 
+        "platform_status": {
+          "status": 1, 
+          "type_": "ComputedListValue", 
+          "reason": "", 
+          "value": [
+            2
+          ]
+        }, 
+        "number_instruments_operational": {
+          "status": 2, 
+          "type_": "ComputedIntValue", 
+          "reason": "", 
+          "value": 0
+        }, 
+        "station_status": {
+          "status": 1, 
+          "type_": "ComputedListValue", 
+          "reason": "", 
+          "value": []
+        }, 
+        "user_notification_requests": {
+          "status": 2, 
+          "type_": "ComputedListValue", 
+          "reason": "", 
+          "value": []
+        }, 
+        "type_": "SiteComputedAttributes", 
+        "data_status_roll_up": {
+          "status": 1, 
+          "type_": "ComputedIntValue", 
+          "reason": "", 
+          "value": 2
+        }, 
+        "instrument_status": {
+          "status": 1, 
+          "type_": "ComputedListValue", 
+          "reason": "", 
+          "value": [
+            2, 
+            2, 
+            2
+          ]
+        }, 
+        "recent_events_request": {
+          "service_name": "user_notification", 
+          "type_": "ServiceRequest", 
+          "request_parameters": {
+            "resource_id": "2f470096dbd247fe877714b0bf3f86e9"
+          }, 
+          "service_operation": "get_recent_events"
+        }, 
+        "number_data_sets": {
+          "status": 2, 
+          "type_": "ComputedIntValue", 
+          "reason": "", 
+          "value": 0
+        }, 
+        "location_status_roll_up": {
+          "status": 1, 
+          "type_": "ComputedIntValue", 
+          "reason": "", 
+          "value": 2
+        }, 
+        "portal_status": {
+          "status": 1, 
+          "type_": "ComputedListValue", 
+          "reason": "", 
+          "value": [
+            2, 
+            2, 
+            2
+          ]
+        }, 
+        "power_status_roll_up": {
+          "status": 1, 
+          "type_": "ComputedIntValue", 
+          "reason": "", 
+          "value": 2
+        }, 
+        "number_platforms": {
+          "status": 2, 
+          "type_": "ComputedIntValue", 
+          "reason": "", 
+          "value": 0
+        }, 
+        "number_instruments_deployed": {
+          "status": 2, 
+          "type_": "ComputedIntValue", 
+          "reason": "", 
+          "value": 0
+        }, 
+        "user_notifications_request": {
+          "service_name": "user_notification", 
+          "type_": "ServiceRequest", 
+          "request_parameters": {
+            "user_id": "", 
+            "resource_id": "2f470096dbd247fe877714b0bf3f86e9"
+          }, 
+          "service_operation": "get_subscriptions_attribute"
+        }, 
+        "operational_state": {
+          "status": 2, 
+          "type_": "ComputedStringValue", 
+          "reason": "", 
+          "value": ""
+        }, 
+        "number_instruments_inoperational": {
+          "status": 2, 
+          "type_": "ComputedIntValue", 
+          "reason": "", 
+          "value": 0
+        }
+      }, 
+      "platform_station_sites": [], 
+      "sites": [
+        {
+          "lcstate": "DEPLOYED", 
+          "alt_resource_type": "", 
+          "description": "Instrument: GP05MOAS-GL001-04-CTDGVM999", 
+          "ts_updated": "1391557168487", 
+          "type_": "InstrumentSite", 
+          "_id": "640f0ed184f64283819e64b316aff765", 
+          "availability": "AVAILABLE", 
+          "name": "CTD Glider on Glider 001 - Global Station Papa Mobile Assets"
+        }, 
+        {
+          "lcstate": "DEPLOYED", 
+          "alt_resource_type": "", 
+          "description": "Instrument: GP05MOAS-GL001-02-DOSTAM999", 
+          "ts_updated": "1391557166608", 
+          "type_": "InstrumentSite", 
+          "_id": "9b3899b790c0446e98f0f7c5908f42fc", 
+          "availability": "AVAILABLE", 
+          "name": "Dissolved Oxygen Stable Response on Glider 001 - Global Station Papa Mobile Assets"
+        }, 
+        {
+          "lcstate": "DEPLOYED", 
+          "alt_resource_type": "", 
+          "description": "Instrument: GP05MOAS-GL001-01-FLORDM999", 
+          "ts_updated": "1391557169431", 
+          "type_": "InstrumentSite", 
+          "_id": "973e270b26c644f08d0d6ff1deec1a9f", 
+          "availability": "AVAILABLE", 
+          "name": "2-Wavelength Fluorometer on Glider 001 - Global Station Papa Mobile Assets"
+        }
+      ], 
+      "deployments": [
+        {
+          "lcstate": "DEPLOYED", 
+          "description": "", 
+          "ts_updated": "1391557239033", 
+          "type_": "Deployment", 
+          "_id": "825f4f7bc81c49c89805e3f4c71094ec", 
+          "availability": "AVAILABLE", 
+          "name": "Deployment of platform GP05MOAS-GL001"
+        }
+      ], 
+      "parent_site": {
+        "lcstate": "DEPLOYED", 
+        "description": "Subsite: GP05MOAS", 
+        "ts_updated": "1391557140193", 
+        "type_": "Observatory", 
+        "_id": "aabe98f9d4f14be4b8fb7fd61dd27047", 
+        "availability": "AVAILABLE", 
+        "name": "Global Station Papa Mobile Assets"
+      }, 
+      "platform_models": [
+        {
+          "ci_onboard": "", 
+          "lcstate": "DEPLOYED", 
+          "weight": 0.0, 
+          "manufacturer_url": "", 
+          "wattage": 0.0, 
+          "height": 0.0, 
+          "voltage": 0.0, 
+          "availability": "AVAILABLE", 
+          "parameter_characteristics_reports": [], 
+          "type_": "PlatformModel", 
+          "custom_attributes": [], 
+          "name": "Gliders", 
+          "width": 0.0, 
+          "addl": {}, 
+          "_rev": "1", 
+          "description": "Node Type: GL", 
+          "reference_urls": [], 
+          "shore_networked": true, 
+          "ts_updated": "1391557132888", 
+          "ts_created": "1391557132888", 
+          "manufacturer": "", 
+          "alt_ids": [
+            "OOI:GL_PM", 
+            "PRE:GL_PM"
+          ], 
+          "platform_type": "Glider", 
+          "length": 0.0, 
+          "platform_family": "Ocean Glider", 
+          "has_clock": true, 
+          "_id": "85c7ceaaf8cb4c578e149bdebce6baee"
+        }
+      ], 
+      "data_products": [
+        {
+          "description": "Instrument GP05MOAS-GL001-01-FLORDM999 core OOI data product", 
+          "lcstate": "DEPLOYED", 
+          "processing_level_code": "L1", 
+          "ts_updated": "1391804699517", 
+          "type_": "DataProduct", 
+          "quality_control_level": "a", 
+          "_id": "ca73aaba72184d748847bf95ba53fe6b", 
+          "availability": "AVAILABLE", 
+          "name": "Fluorometric Chlorophyll-a Concentration L1 FLORD Glider 001 - Global Station Papa Mobile Assets"
+        }, 
+        {
+          "description": "Instrument GP05MOAS-GL001-02-DOSTAM999 core OOI data product", 
+          "lcstate": "DEPLOYED", 
+          "processing_level_code": "L1", 
+          "ts_updated": "1391558512105", 
+          "type_": "DataProduct", 
+          "quality_control_level": "a", 
+          "_id": "e6bca04956e541128a75c1b2f1664e2a", 
+          "availability": "AVAILABLE", 
+          "name": "Oxygen Concentration from Stable DO Instrument L1 DOSTA Glider 001 - Global Station Papa Mobile Assets"
+        }, 
+        {
+          "description": "Instrument GP05MOAS-GL001-04-CTDGVM999 core OOI data product", 
+          "lcstate": "DEPLOYED", 
+          "processing_level_code": "L1", 
+          "ts_updated": "1391558886248", 
+          "type_": "DataProduct", 
+          "quality_control_level": "a", 
+          "_id": "80f631f1fc2e4f239bf94e526a176ec3", 
+          "availability": "AVAILABLE", 
+          "name": "Conductivity L1 CTDGV Glider 001 - Global Station Papa Mobile Assets"
+        }, 
+        {
+          "description": "Instrument GP05MOAS-GL001-01-FLORDM999 data product: parsed samples", 
+          "lcstate": "DEPLOYED", 
+          "processing_level_code": "Parsed", 
+          "ts_updated": "1391559036754", 
+          "type_": "DataProduct", 
+          "quality_control_level": "a", 
+          "_id": "d3251195983c475abd059a6a38b487ad", 
+          "availability": "AVAILABLE", 
+          "name": "Instrument GP05MOAS-GL001-01-FLORDM999 stream 'ggldr_flord_delayed' data product"
+        }, 
+        {
+          "description": "Instrument GP05MOAS-GL001-04-CTDGVM999 core OOI data product", 
+          "lcstate": "DEPLOYED", 
+          "processing_level_code": "L1", 
+          "ts_updated": "1391558898905", 
+          "type_": "DataProduct", 
+          "quality_control_level": "a", 
+          "_id": "d105c261a43c4536bb44361d68fae63e", 
+          "availability": "AVAILABLE", 
+          "name": "Pressure (Depth) L1 CTDGV Glider 001 - Global Station Papa Mobile Assets"
+        }, 
+        {
+          "description": "Instrument GP05MOAS-GL001-02-DOSTAM999 data product: parsed samples", 
+          "lcstate": "DEPLOYED", 
+          "processing_level_code": "Parsed", 
+          "ts_updated": "1391558506132", 
+          "type_": "DataProduct", 
+          "quality_control_level": "a", 
+          "_id": "b373b93231c24b64ac9d79a11bc47078", 
+          "availability": "AVAILABLE", 
+          "name": "Instrument GP05MOAS-GL001-02-DOSTAM999 stream 'ggldr_dosta_delayed' data product"
+        }, 
+        {
+          "description": "Instrument GP05MOAS-GL001-04-CTDGVM999 core OOI data product", 
+          "lcstate": "DEPLOYED", 
+          "processing_level_code": "L1", 
+          "ts_updated": "1391558905905", 
+          "type_": "DataProduct", 
+          "quality_control_level": "a", 
+          "_id": "437ea04766944945aa83c50a14229be8", 
+          "availability": "AVAILABLE", 
+          "name": "Temperature L1 CTDGV Glider 001 - Global Station Papa Mobile Assets"
+        }, 
+        {
+          "description": "Instrument GP05MOAS-GL001-04-CTDGVM999 core OOI data product", 
+          "lcstate": "DEPLOYED", 
+          "processing_level_code": "L2", 
+          "ts_updated": "1391558892488", 
+          "type_": "DataProduct", 
+          "quality_control_level": "b", 
+          "_id": "7a51b01416f546ed9bce6c071633db02", 
+          "availability": "AVAILABLE", 
+          "name": "Practical Salinity L2 CTDGV Glider 001 - Global Station Papa Mobile Assets"
+        }, 
+        {
+          "description": "Instrument GP05MOAS-GL001-04-CTDGVM999 data product: parsed samples", 
+          "lcstate": "DEPLOYED", 
+          "processing_level_code": "Parsed", 
+          "ts_updated": "1391558879493", 
+          "type_": "DataProduct", 
+          "quality_control_level": "a", 
+          "_id": "0b9b23e7ae8c495bb6f6f36fc29b1ec0", 
+          "availability": "AVAILABLE", 
+          "name": "Instrument GP05MOAS-GL001-04-CTDGVM999 stream 'ggldr_ctdgv_delayed' data product"
+        }, 
+        {
+          "description": "Platform GP05MOAS-GL001 data product", 
+          "lcstate": "DEPLOYED", 
+          "processing_level_code": "N/A", 
+          "ts_updated": "1391557533690", 
+          "type_": "DataProduct", 
+          "quality_control_level": "N/A", 
+          "_id": "47ae6b72ba644a439a992de4d40c4330", 
+          "availability": "AVAILABLE", 
+          "name": "Platform GP05MOAS-GL001 stream 'ggldr_eng_delayed' data product"
+        }, 
+        {
+          "description": "Instrument GP05MOAS-GL001-01-FLORDM999 core OOI data product", 
+          "lcstate": "DEPLOYED", 
+          "processing_level_code": "L1", 
+          "ts_updated": "1391559049924", 
+          "type_": "DataProduct", 
+          "quality_control_level": "a", 
+          "_id": "44e6943f323f4938b78311f49593f66d", 
+          "availability": "AVAILABLE", 
+          "name": "Optical Backscatter (Red Wavelengths) L1 FLORD Glider 001 - Global Station Papa Mobile Assets"
+        }
+      ], 
+      "sites_devices": [
+        {
+          "description": "Instrument GP05MOAS-GL001-04-CTDGVM999 device #01", 
+          "lcstate": "DEPLOYED", 
+          "ts_updated": "1391557201268", 
+          "type_": "InstrumentDevice", 
+          "_id": "b93a292f00674e63bc04513bf9b8e223", 
+          "availability": "AVAILABLE", 
+          "name": "CTD Glider on Glider 001 - Global Station Papa Mobile Assets"
+        }, 
+        {
+          "description": "Instrument GP05MOAS-GL001-02-DOSTAM999 device #01", 
+          "lcstate": "DEPLOYED", 
+          "ts_updated": "1391557197578", 
+          "type_": "InstrumentDevice", 
+          "_id": "2d28a411b54c46d895354ea1aa50d548", 
+          "availability": "AVAILABLE", 
+          "name": "Dissolved Oxygen Stable Response on Glider 001 - Global Station Papa Mobile Assets"
+        }, 
+        {
+          "description": "Instrument GP05MOAS-GL001-01-FLORDM999 device #01", 
+          "lcstate": "DEPLOYED", 
+          "ts_updated": "1391557203115", 
+          "type_": "InstrumentDevice", 
+          "_id": "b56081c4735444d7ad7fec8c50ad54aa", 
+          "availability": "AVAILABLE", 
+          "name": "2-Wavelength Fluorometer on Glider 001 - Global Station Papa Mobile Assets"
+        }
+      ], 
+      "deployment_info": [
+        {
+          "site_name": "Glider 001 - Global Station Papa Mobile Assets", 
+          "site_type": "PlatformSite", 
+          "resource_id": "825f4f7bc81c49c89805e3f4c71094ec", 
+          "is_primary": true, 
+          "start_time": "2013-07-17 00:00:00", 
+          "site_id": "2f470096dbd247fe877714b0bf3f86e9", 
+          "device_name": "Glider 001 - Global Station Papa Mobile Assets", 
+          "parent_site_name": "Global Station Papa Mobile Assets", 
+          "parent_site_description": "Subsite: GP05MOAS", 
+          "end_time": "2054-01-01 00:00:00", 
+          "device_type": "PlatformDevice", 
+          "parent_site_id": "aabe98f9d4f14be4b8fb7fd61dd27047", 
+          "device_id": "028cc6cd4c7048eb9d38eeca274e5091"
+        }
+      ], 
+      "availability_transitions": {}, 
+      "instrument_models": [
+        {
+          "power_supply_voltage_maximum": 0.0, 
+          "lcstate": "DEPLOYED", 
+          "weight": 0.0, 
+          "class_name": "Oxygen dissolved stable", 
+          "manufacturer_url": "", 
+          "wattage": 0.0, 
+          "mixed_sampling_mode": true, 
+          "hotel_current": "", 
+          "height": 0.0, 
+          "voltage": 0.0, 
+          "baud_rate_default": "", 
+          "integrated_inductive_modem_available": true, 
+          "availability": "AVAILABLE", 
+          "instrument_classes_supported": [], 
+          "internal_battery": true, 
+          "parameter_characteristics_reports": [], 
+          "type_": "InstrumentModel", 
+          "custom_attributes": [], 
+          "name": "Dissolved Oxygen Stable Response (DOSTA-M)", 
+          "reference_designator": "DOSTAM", 
+          "width": 0.0, 
+          "clock_notes": "", 
+          "internal_data_storage": true, 
+          "operational_depth_maximum": 0.0, 
+          "addl": {
+            "comments": "", 
+            "connector": "", 
+            "makemodel_description": "Optode 4831", 
+            "input_voltage_range": "", 
+            "interface": "", 
+            "output_description": "", 
+            "class_long_name": "oxygen_dissolved_stable"
+          }, 
+          "electrical_notes": "", 
+          "_rev": "1", 
+          "required_on_time": "", 
+          "survival_depth_maximum": 0.0, 
+          "ooi_make_model": "Optode 4831", 
+          "description": "Measures dissolved oxygen concentrations on mobile assets, deep profilers, and moorings", 
+          "reference_urls": [], 
+          "instrument_family": "Dissolved Oxygen", 
+          "series_name": "DOSTA Series M", 
+          "inline_management": true, 
+          "series_id": "DOSTAM", 
+          "ts_updated": "1391557135068", 
+          "subseries_name": "DOSTA Series M Sub 01", 
+          "primary_interface": 1, 
+          "configuration": "Aanderaa optode 4831", 
+          "ts_created": "1391557135068", 
+          "manufacturer": "Aanderaa", 
+          "family_name": "Dissolved Oxygen", 
+          "class_description": "Measures dissolved oxygen concentrations on mobile assets, deep profilers, and moorings", 
+          "class_alternate_name": "Dissolved Oxygen Stable Response", 
+          "alt_ids": [
+            "OOI:DOSTAM", 
+            "PRE:DOSTAM"
+          ], 
+          "subseries_id": "DOSTAM01", 
+          "class_id": "DOSTA", 
+          "power_supply_voltage_minimum": 0.0, 
+          "family_id": "DO2", 
+          "length": 0.0, 
+          "has_clock": true, 
+          "power_source": "", 
+          "clock_max_drift": 0.0, 
+          "_id": "3875a54ea90648c2b0ac4537bccc225e"
+        }, 
+        {
+          "power_supply_voltage_maximum": 0.0, 
+          "lcstate": "DEPLOYED", 
+          "weight": 0.0, 
+          "class_name": "CTD Glider", 
+          "manufacturer_url": "", 
+          "wattage": 0.0, 
+          "mixed_sampling_mode": true, 
+          "hotel_current": "", 
+          "height": 0.0, 
+          "voltage": 0.0, 
+          "baud_rate_default": "", 
+          "integrated_inductive_modem_available": true, 
+          "availability": "AVAILABLE", 
+          "instrument_classes_supported": [], 
+          "internal_battery": true, 
+          "parameter_characteristics_reports": [], 
+          "type_": "InstrumentModel", 
+          "custom_attributes": [], 
+          "name": "CTD Glider (CTDGV-M)", 
+          "reference_designator": "CTDGVM", 
+          "width": 0.0, 
+          "clock_notes": "", 
+          "internal_data_storage": true, 
+          "operational_depth_maximum": 0.0, 
+          "addl": {
+            "comments": "", 
+            "connector": "", 
+            "makemodel_description": "SBE Glider Payload CTD (GP-CTD", 
+            "input_voltage_range": "", 
+            "interface": "", 
+            "output_description": "", 
+            "class_long_name": "CTD_glider"
+          }, 
+          "electrical_notes": "", 
+          "_rev": "1", 
+          "required_on_time": "", 
+          "survival_depth_maximum": 0.0, 
+          "ooi_make_model": "SBE Glider Payload CTD (GP-CTD)", 
+          "description": "CTDs to be mounted on gliders", 
+          "reference_urls": [], 
+          "instrument_family": "Conductivity, Temperature, Depth", 
+          "series_name": "CTDGV Series M", 
+          "inline_management": true, 
+          "series_id": "CTDGVM", 
+          "ts_updated": "1391557137208", 
+          "subseries_name": "CTDGV Series M Sub 01", 
+          "primary_interface": 1, 
+          "configuration": "SBE Slocum Glider Payload CTD", 
+          "ts_created": "1391557137208", 
+          "manufacturer": "Sea-Bird", 
+          "family_name": "Conductivity, Temperature, Depth", 
+          "class_description": "CTDs to be mounted on gliders", 
+          "class_alternate_name": "CTD Glider", 
+          "alt_ids": [
+            "OOI:CTDGVM", 
+            "PRE:CTDGVM"
+          ], 
+          "subseries_id": "CTDGVM01", 
+          "class_id": "CTDGV", 
+          "power_supply_voltage_minimum": 0.0, 
+          "family_id": "CTD", 
+          "length": 0.0, 
+          "has_clock": true, 
+          "power_source": "", 
+          "clock_max_drift": 0.0, 
+          "_id": "915c5e4daa7a49a297fbf1c12adbd0ca"
+        }, 
+        {
+          "power_supply_voltage_maximum": 0.0, 
+          "lcstate": "DEPLOYED", 
+          "weight": 0.0, 
+          "class_name": "Fluorometer two wavelength", 
+          "manufacturer_url": "", 
+          "wattage": 0.0, 
+          "mixed_sampling_mode": true, 
+          "hotel_current": "", 
+          "height": 0.0, 
+          "voltage": 0.0, 
+          "baud_rate_default": "", 
+          "integrated_inductive_modem_available": true, 
+          "availability": "AVAILABLE", 
+          "instrument_classes_supported": [], 
+          "internal_battery": true, 
+          "parameter_characteristics_reports": [], 
+          "type_": "InstrumentModel", 
+          "custom_attributes": [], 
+          "name": "2-Wavelength Fluorometer (FLORD-M)", 
+          "reference_designator": "FLORDM", 
+          "width": 0.0, 
+          "clock_notes": "", 
+          "internal_data_storage": true, 
+          "operational_depth_maximum": 0.0, 
+          "addl": {
+            "comments": "", 
+            "connector": "", 
+            "makemodel_description": "ECO Puck FLBB-SLC", 
+            "input_voltage_range": "", 
+            "interface": "", 
+            "output_description": "", 
+            "class_long_name": "Fluorometer_two_wavelength"
+          }, 
+          "electrical_notes": "", 
+          "_rev": "1", 
+          "required_on_time": "", 
+          "survival_depth_maximum": 0.0, 
+          "ooi_make_model": "ECO Puck FLBB-SLC", 
+          "description": "2-Wavelength Fluorometer for measurement of fluorescence, Chl-a, optical backscatter", 
+          "reference_urls": [], 
+          "instrument_family": "Fluorometer", 
+          "series_name": "FLORD Series M", 
+          "inline_management": true, 
+          "series_id": "FLORDM", 
+          "ts_updated": "1391557136981", 
+          "subseries_name": "FLORD Series M Sub 01", 
+          "primary_interface": 1, 
+          "configuration": "", 
+          "ts_created": "1391557136981", 
+          "manufacturer": "WET Labs", 
+          "family_name": "Fluorometer", 
+          "class_description": "2-Wavelength Fluorometer for measurement of fluorescence, Chl-a, optical backscatter", 
+          "class_alternate_name": "2-Wavelength Fluorometer", 
+          "alt_ids": [
+            "OOI:FLORDM", 
+            "PRE:FLORDM"
+          ], 
+          "subseries_id": "FLORDM01", 
+          "class_id": "FLORD", 
+          "power_supply_voltage_minimum": 0.0, 
+          "family_id": "FLO", 
+          "length": 0.0, 
+          "has_clock": true, 
+          "power_source": "", 
+          "clock_max_drift": 0.0, 
+          "_id": "5ab62fe269b94ca79665279a8cc774fd"
+        }
+      ], 
+      "resource": {
+        "reference_designator": "GP05MOAS-GL001", 
+        "_rev": "1", 
+        "_id": "2f470096dbd247fe877714b0bf3f86e9", 
+        "lcstate": "DEPLOYED", 
+        "alt_resource_type": "StationSite", 
+        "alt_ids": [
+          "OOI:GP05MOAS-GL001", 
+          "PRE:GP05MOAS-GL001"
+        ], 
+        "description": "Node (platform): GP05MOAS-GL001", 
+        "coordinate_reference_system": {
+          "geospatial_latitude_units": "degrees_north", 
+          "geospatial_vertical_crs": "http://www.opengis.net/def/cs/EPSG/0/6498", 
+          "type_": "GeospatialCoordinateReferenceSystem", 
+          "geospatial_geodetic_crs": "http://www.opengis.net/def/crs/EPSG/0/4326", 
+          "geospatial_vertical_positive": "down", 
+          "geospatial_vertical_units": "meter", 
+          "geospatial_longitude_units": "degrees_east"
+        }, 
+        "planned_uplink_port": {
+          "reference_designator": "", 
+          "type_": "PlatformPort", 
+          "ip_address": "", 
+          "port_type": 1
+        }, 
+        "constraint_list": [
+          {
+            "geospatial_latitude_limit_south": 49.5, 
+            "geospatial_vertical_max": 1100.0, 
+            "type_": "GeospatialBounds", 
+            "geospatial_latitude_limit_north": 51.0, 
+            "geospatial_longitude_limit_west": -146.0, 
+            "geospatial_vertical_min": 0.0, 
+            "geospatial_longitude_limit_east": -143.5
+          }
+        ], 
+        "environment": 1, 
+        "ts_updated": "1391557148564", 
+        "type_": "PlatformSite", 
+        "local_name": "Glider 001", 
+        "geospatial_point_center": {
+          "lat": 50.256769, 
+          "type_": "GeospatialIndex", 
+          "lon": -144.730376
+        }, 
+        "addl": {}, 
+        "ts_created": "1391557148564", 
+        "availability": "AVAILABLE", 
+        "name": "Glider 001 - Global Station Papa Mobile Assets"
+      }, 
+      "ts_created": "1399063595856", 
+      "instrument_sites": [
+        {
+          "lcstate": "DEPLOYED", 
+          "alt_resource_type": "", 
+          "description": "Instrument: GP05MOAS-GL001-02-DOSTAM999", 
+          "ts_updated": "1391557166608", 
+          "type_": "InstrumentSite", 
+          "_id": "9b3899b790c0446e98f0f7c5908f42fc", 
+          "availability": "AVAILABLE", 
+          "name": "Dissolved Oxygen Stable Response on Glider 001 - Global Station Papa Mobile Assets"
+        }, 
+        {
+          "lcstate": "DEPLOYED", 
+          "alt_resource_type": "", 
+          "description": "Instrument: GP05MOAS-GL001-04-CTDGVM999", 
+          "ts_updated": "1391557168487", 
+          "type_": "InstrumentSite", 
+          "_id": "640f0ed184f64283819e64b316aff765", 
+          "availability": "AVAILABLE", 
+          "name": "CTD Glider on Glider 001 - Global Station Papa Mobile Assets"
+        }, 
+        {
+          "lcstate": "DEPLOYED", 
+          "alt_resource_type": "", 
+          "description": "Instrument: GP05MOAS-GL001-01-FLORDM999", 
+          "ts_updated": "1391557169431", 
+          "type_": "InstrumentSite", 
+          "_id": "973e270b26c644f08d0d6ff1deec1a9f", 
+          "availability": "AVAILABLE", 
+          "name": "2-Wavelength Fluorometer on Glider 001 - Global Station Papa Mobile Assets"
+        }
+      ], 
+      "owners": [], 
+      "lcstate_transitions": {
+        "retire": "RETIRED"
+      }, 
+      "platform_assembly_sites": [], 
+      "attachments": [], 
+      "type_": "SiteExtension", 
+      "policies": [], 
+      "portal_instruments": [
+        {
+          "description": "Instrument GP05MOAS-GL001-04-CTDGVM999 device #01", 
+          "lcstate": "DEPLOYED", 
+          "ts_updated": "1391557201268", 
+          "type_": "InstrumentDevice", 
+          "_id": "b93a292f00674e63bc04513bf9b8e223", 
+          "availability": "AVAILABLE", 
+          "name": "CTD Glider on Glider 001 - Global Station Papa Mobile Assets"
+        }, 
+        {
+          "description": "Instrument GP05MOAS-GL001-02-DOSTAM999 device #01", 
+          "lcstate": "DEPLOYED", 
+          "ts_updated": "1391557197578", 
+          "type_": "InstrumentDevice", 
+          "_id": "2d28a411b54c46d895354ea1aa50d548", 
+          "availability": "AVAILABLE", 
+          "name": "Dissolved Oxygen Stable Response on Glider 001 - Global Station Papa Mobile Assets"
+        }, 
+        {
+          "description": "Instrument GP05MOAS-GL001-01-FLORDM999 device #01", 
+          "lcstate": "DEPLOYED", 
+          "ts_updated": "1391557203115", 
+          "type_": "InstrumentDevice", 
+          "_id": "b56081c4735444d7ad7fec8c50ad54aa", 
+          "availability": "AVAILABLE", 
+          "name": "2-Wavelength Fluorometer on Glider 001 - Global Station Papa Mobile Assets"
+        }
+      ], 
+      "orgs": [
+        {
+          "message_controllable": true, 
+          "_rev": "1", 
+          "_id": "450a294db1884991abcde1d6a2571afa", 
+          "lcstate": "DEPLOYED", 
+          "alt_ids": [
+            "PRE:MF_CGSN"
+          ], 
+          "url": "http://www.whoi.edu/ooi_cgsn/", 
+          "description": "Marine Infrastructure managed by CGSN Marine IO", 
+          "contacts": [
+            {
+              "individual_names_given": "Gabriela", 
+              "city": "", 
+              "roles": [
+                "primary"
+              ], 
+              "administrative_area": "", 
+              "url": "", 
+              "country": "", 
+              "variables": [
+                {
+                  "name": "", 
+                  "value": ""
+                }
+              ], 
+              "organization_name": "CGSN/Scripps Institution of Oceanography", 
+              "type_": "ContactInformation", 
+              "postal_code": "", 
+              "individual_name_family": "Chavez", 
+              "phones": [
+                {
+                  "phone_number": "858-822-4938", 
+                  "phone_type": "office", 
+                  "type_": "Phone"
+                }
+              ], 
+              "position_name": "Operations Manager", 
+              "email": "gchavez@ucsd.edu", 
+              "street_address": ""
+            }
+          ], 
+          "org_governance_name": "CGSN", 
+          "institution": {
+            "website": "", 
+            "phone": "", 
+            "type_": "Institution", 
+            "name": "Woods Hole Oceanographic Institution", 
+            "email": ""
+          }, 
+          "ts_updated": "1391557014292", 
+          "type_": "Org", 
+          "monitorable": true, 
+          "org_type": 2, 
+          "addl": {}, 
+          "ts_created": "1391557014292", 
+          "availability": "AVAILABLE", 
+          "name": "CGSN Facility"
+        }
+      ], 
+      "model": [
+        {
+          "ci_onboard": "", 
+          "lcstate": "DEPLOYED", 
+          "weight": 0.0, 
+          "manufacturer_url": "", 
+          "wattage": 0.0, 
+          "height": 0.0, 
+          "voltage": 0.0, 
+          "availability": "AVAILABLE", 
+          "parameter_characteristics_reports": [], 
+          "type_": "PlatformModel", 
+          "custom_attributes": [], 
+          "name": "Gliders", 
+          "width": 0.0, 
+          "addl": {}, 
+          "_rev": "1", 
+          "description": "Node Type: GL", 
+          "reference_urls": [], 
+          "shore_networked": true, 
+          "ts_updated": "1391557132888", 
+          "ts_created": "1391557132888", 
+          "manufacturer": "", 
+          "alt_ids": [
+            "OOI:GL_PM", 
+            "PRE:GL_PM"
+          ], 
+          "platform_type": "Glider", 
+          "length": 0.0, 
+          "platform_family": "Ocean Glider", 
+          "has_clock": true, 
+          "_id": "85c7ceaaf8cb4c578e149bdebce6baee"
+        }
+      ], 
+      "_id": "2f470096dbd247fe877714b0bf3f86e9", 
+      "platform_component_sites": []
+    }
+  }
+}
